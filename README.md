@@ -1,4 +1,4 @@
-# 🍄 REACTX-NOTIFICATIONS 🍄
+# 🍄 RX-NOTIFICATIONS 🍄
 
 
 ## Features
@@ -15,12 +15,10 @@
 
 To use this package your application must have some dependencies: 
 
-- TailwindCSS (Follow instructions: https://tailwindcss.com/docs/guides/create-react-app)
 - React/Next
-- Framer Motion (npm install framer-motion)
 
 ```sh
-npm install reactx-notifications
+npm install rx-notifications
 ```
 
 Insert this lines on public/index.html if you're using react, if it's Nextjs add this links into document file.
@@ -28,12 +26,13 @@ Insert this lines on public/index.html if you're using react, if it's Nextjs add
 ```html
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+<script src="https://cdn.tailwindcss.com"></script>
 ```
 
 ## Sample
 
 ```js
-import useNotifications from "reactx-notifications";
+import { useNotifications } from "rx-notifications";
 
 export default function App() {
     const {
